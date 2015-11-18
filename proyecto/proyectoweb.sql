@@ -1,0 +1,3 @@
+create table employee (employee_id bigint not null auto_increment, firstname varchar(50), lastname varchar(50), primary key (employee_id)) Engine=InnoDB;
+create table food (food_id bigint not null auto_increment, name varchar(50), description varchar(50), primary key (food_id)) Engine=InnoDB;
+create table food_employee (food_employee_id bigint not null auto_increment, confirm varchar(50), employee_id bigint,food_id bigint, primary key (food_employee_id), foreign key (employee_id) references employee(employee_id),foreign key (food_id) references food(food_id)) Engine=InnoDB;

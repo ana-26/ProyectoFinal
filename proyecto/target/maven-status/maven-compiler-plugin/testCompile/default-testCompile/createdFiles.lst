@@ -1,0 +1,9 @@
+bravo\webapp\filter\MockFilterChain.class
+bravo\webapp\controller\PasswordHintControllerTest.class
+bravo\webapp\controller\BaseControllerTestCase.class
+bravo\webapp\controller\SignupControllerTest.class
+bravo\webapp\controller\UpdatePasswordControllerTest.class
+bravo\webapp\controller\UserControllerTest.class
+bravo\webapp\controller\UserFormControllerTest.class
+bravo\webapp\listener\StartupListenerTest.class
+bravo\webapp\filter\LocaleFilterTest.class
